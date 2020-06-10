@@ -47,7 +47,7 @@ def main(argv):
     if layout_style == "v":            
         # warn and exit if no selection
         if scribus.selectionCount() == 0:
-            scribus.messageBox("Error", "Select an object first !", icon=scribus.ICON_WARNING)
+            scribus.messageBox("Error", "Select an object first!", icon=scribus.ICON_WARNING)
             sys.exit()
         
         #create mirror guides
@@ -74,7 +74,7 @@ def main(argv):
     if layout_style == "h":            
         # warn and exit if no selection
         if scribus.selectionCount() == 0:
-            scribus.messageBox("Error", "Select an object first !", icon=scribus.ICON_WARNING)
+            scribus.messageBox("Error", "Select an object first!", icon=scribus.ICON_WARNING)
             sys.exit()
         
         #create mirror guides
